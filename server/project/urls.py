@@ -22,7 +22,7 @@ def home(request):
     return HttpResponse("API server is running ")
 
 urlpatterns = [
-    path('', home),  # ← энэ мөр нэмнэ
+    path('', home),  
     path('admin/', admin.site.urls),
     path('api/', include('accounts.urls')),
 ]

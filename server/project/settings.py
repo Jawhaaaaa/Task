@@ -72,6 +72,7 @@ SIMPLE_JWT = {
 }
 
 CORS_ALLOWED_ORIGINS = [
+    "https://task-chi-neon-66.vercel.app",
     "http://localhost:5173",
 ]
 
